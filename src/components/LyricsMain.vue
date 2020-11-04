@@ -1,6 +1,6 @@
 <template>
     <!-- <LyricsMain artist={artist} song={song} /> -->
-    <div class="lyricsComponent" v-if=fetched>
+    <div class="lyricsComponent" v-if="fetched">
         {{Object.values(response)[0]}}
     </div>
     <div class="fetching" v-else>
@@ -15,8 +15,8 @@ export default {
   components: {
   },
   props: {
-      artist: String,
-      song: String,
+    artist: String,
+    song: String,
   },
   data() {
     return {
@@ -25,15 +25,15 @@ export default {
     }
   },
   beforeMount() {
-      this.fetchData();
+    this.fetchData();
   },
   methods: {
-      async fetchData() {
-          const res = await fetch(`https://api.lyrics.ovh/v1/` + this.artist +`/` + this.song);
-          const data = await res.json();
-          this.response = data;
-          this.fetched = true;
-      }
+    async fetchData() {
+    const res = await fetch(`https://api.lyrics.ovh/v1/` + this.artist +`/` + this.song);
+    const data = await res.json();
+    this.response = data;
+    this.fetched = true;
+    }
   }
 }
 
