@@ -40,8 +40,8 @@
         this.$emit('handleSubmit', this.data);
       },
       loginSpotify() {
-        /* PROD */
-        window.location.href = "https://accounts.spotify.com/authorize?client_id=d93153f252164c2897ab2e626c5b6c69&redirect_uri=https://lyrics.pauabella.dev&scope=user-read-playback-state&response_type=token";
+        /* DEV */
+        window.location.href = "https://accounts.spotify.com/authorize?client_id=d93153f252164c2897ab2e626c5b6c69&redirect_uri=http://localhost:8080&scope=user-read-playback-state&response_type=token";
       },
       getAccessToken() {
         const queryString = window.location.hash;
