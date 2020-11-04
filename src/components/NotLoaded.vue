@@ -57,7 +57,7 @@
         const res = await fetch(`https://api.spotify.com/v1/me/player`, { headers });
         const data = await res.json();
         this.data.artist = data.item.artists[0]['name'];
-        this.data.song = data.item.album.name;
+        this.data.song = data.item.name;
         this.data.title = this.data.song;
         this.data.loaded = true;
 
