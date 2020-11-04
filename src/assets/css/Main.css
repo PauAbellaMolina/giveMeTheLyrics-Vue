@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.test {
+  border: 1px solid red;
+}
+
+/*GENERAL*/
+::selection {
+  color: #d7385e;
+	background: #e7d39f;
+}
+
+body {
+  background-color: #522d5b;
+}
+
+input:focus{
+  outline-width: 0;
+}
+
+.redFnt {
+  color: #d7385e;
+}
+
+/*HEADER DESKTOP*/
+.Header {
+  width: 100%;
+  padding: 3% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7.5vw;
+  text-align: center;
+  text-shadow: 0.05em 0.055em 0px #e7d39f;
+}
+
+.Main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: #522d5b;
+  color: #e7d39f;
+}
+  .Main form {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+  }
+  .Main form input {
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1.2em 0 0 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #815a8a;
+    color: #e7d39f;
+  }
+    /* GO BUTTON */
+    .Main form button {
+      position: fixed;
+      width: 100%;
+      height: 16vw;
+      /* height: calc(55vh - 5vw); */
+      bottom: 0;
+      left: 0;
+      padding: 0;
+      border: none;
+      border-radius: 50px 50px 0 0;
+      background-color: #815a8a;
+      color: #e7d39f;
+      font-size: 8vw;
+    }
+    /* CONNECT TO SPOTIFY LABEL */
+    .Main form p {
+      background-color: #815a8a;
+      border-radius: 8px;
+      margin-top: 1.2em;
+      font-size: 1.3em;
+    }
+    .Main form p:hover {
+      cursor: pointer;
+    }
+
+  /*LYRICS COMPONENT INSIDE MAIN DESKTOP*/
+  .lyricsComponent {
+    width: 100%;
+    margin: 3em 0 10em 0;
+    padding: 0 1em 0 1em;
+    white-space: pre-line;
+    text-align: center;
+    font-size: 1.8vmin;
+  }
+
+  .fetching {
+    width: 100%;
+    margin: 1em 0 0 0;
+    text-align: center;
+    font-size: 8vw;
+  }
+
+  /*GO BACK BUTTON*/
+  .Main button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(5vh + 2vw);
+    padding: 0;
+    border: none;
+    border-radius: 50px 50px 0 0;
+    background-color: #815a8a;
+    color: #e7d39f;
+    font-size: 3vw;
+  }
