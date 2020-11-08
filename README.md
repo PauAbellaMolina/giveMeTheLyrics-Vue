@@ -8,3 +8,5 @@ I decided to redo this project I already build in React to learn Vue without spe
 I spent some time playing around with the Spotify API and now you can connect GMTL with your Spotify Account and get the lyrics of your currently playing song in one click. Pretty cool right?
 
 🤓 This is my first Vue Project yay! 🎉🎉🎉
+
+[lyrics.pauabella.dev](https://pauabella.dev/GiveMeTheLyrics "Take a look")
