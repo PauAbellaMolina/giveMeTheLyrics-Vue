@@ -9,4 +9,4 @@ I spent some time playing around with the Spotify API and now you can connect GM
 
 🤓 This is my first Vue Project yay! 🎉🎉🎉
 
-[lyrics.pauabella.dev](https://pauabella.dev/GiveMeTheLyrics "Take a look")
+[lyrics.pauabella.dev](https://lyrics.pauabella.dev "Take a look")
