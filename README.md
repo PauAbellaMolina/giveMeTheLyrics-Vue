@@ -10,3 +10,7 @@ I spent some time playing around with the Spotify API and now you can connect GM
 🤓 This is my first Vue Project yay! 🎉🎉🎉
 
 [lyrics.pauabella.dev](https://lyrics.pauabella.dev "Take a look")
+
+Check it out:
+
+![image](https://github.com/PauAbellaMolina/giveMeTheLyrics-Vue/assets/62839680/0989acd8-a6af-49f2-8ddb-e675e649e407)
